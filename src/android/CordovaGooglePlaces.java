@@ -386,7 +386,7 @@ public class CordovaGooglePlaces extends CordovaPlugin implements GoogleApiClien
             result.put("phoneNumber", place.getPhoneNumber());
         }
         if (place.getAddress() != null) {
-            result.put("formattedAddress", place.getAddress());
+            result.put("formatted_address", place.getAddress());
         }
         if (place.getRating() != 0.0) {
             result.put("rating", place.getRating());
